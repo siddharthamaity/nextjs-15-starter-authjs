@@ -2,8 +2,15 @@
 
 import { signIn, signOut, useSession } from 'next-auth/react';
 
+interface Session {
+    user?: {
+        name?: string;
+        image?: string;
+    };
+}
+
 const AuthButton = () => {
-    const { data: session } = useSession();
+    const { data: session } = useSession() as { data: Session };
 
     return session?.user ? (
         <div className='flex items-center gap-3'>

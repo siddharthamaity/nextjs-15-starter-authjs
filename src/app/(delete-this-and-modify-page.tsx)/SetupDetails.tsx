@@ -18,6 +18,7 @@ const FEATURES: Feature[] = [
     { name: 'React 19 RC' },
     { name: 'Typescript 5' },
     { name: 'TailwindCSS 3' },
+    { name: 'AuthJS 5.0' },
     {
         // ! ===================== DISCLAIMER =====================
         // ! There is no official solution available for new ESLint 9 flat config structure for NextJS
@@ -30,7 +31,7 @@ const FEATURES: Feature[] = [
     { name: 'App Directory' },
     { name: 'System, Light & Dark Mode' },
     { name: 'Next Bundle Analyzer' },
-    { name: 'Dockerfile using Node 20.18.0 (alpine)' }
+    { name: 'Dockerfile using Node 22.11.0 (alpine)' }
 ];
 
 const ESLINT_PLUGINS: Plugin[] = [
