@@ -14,11 +14,11 @@ interface Plugin {
 
 // Define constant arrays with types
 const FEATURES: Feature[] = [
-    { name: 'Next.js 15 Stable' },
-    { name: 'React 19 RC' },
+    { name: 'Next.js 15' },
+    { name: 'React 19' },
     { name: 'Typescript 5' },
     { name: 'TailwindCSS 3' },
-    { name: 'AuthJS 5.0' },
+    { name: 'AuthJS 5.0 (Beta)' },
     {
         // ! ===================== DISCLAIMER =====================
         // ! There is no official solution available for new ESLint 9 flat config structure for NextJS
